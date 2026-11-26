@@ -1,0 +1,526 @@
+[
+  {
+    "question": "Melyik kulcsszóval hozhatunk létre olyan változót, amelynek értéke nem írható át?",
+    "answers": {
+      "A": "var",
+      "B": "let",
+      "C": "const",
+      "D": "static"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Melyik metódus alakítja át a JSON szöveget JavaScript-objektummá?",
+    "answers": {
+      "A": "JSON.stringify()",
+      "B": "JSON.parse()",
+      "C": "JSON.convert()",
+      "D": "Object.toJSON()"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Milyen logikai értéke van a következő kifejezésnek: NaN === NaN ?",
+    "answers": {
+      "A": "True",
+      "B": "False"
+
+    },
+    "correctAnswer": "B"
+  },
+    {
+    "question": "Mit ír ki ez a sor: console.log(parseInt(Infinity,24))?",
+    "answers": {
+      "A": "Infinity",
+      "B": "NaN",
+      "C":"24",
+      "D":"Hibás kód, nem fut le",
+      "E":"151176378"
+    },
+    "correctAnswer": "E"
+  },
+  
+  {
+    "question": "Mit ad vissza a typeof null kifejezés?",
+    "answers": {
+      "A": "\"undefined\"",
+      "B": "\"null\"",
+      "C": "\"number\"",
+      "D": "\"object\""
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Mi az eredménye az alábbi kifejezésnek? [\"10\", \"10\", \"10\"].map(parseInt)",
+    "answers": {
+      "A": "[NaN, NaN, NaN]",
+      "B": "[10, 1, 2]",
+      "C": "[10, NaN, 2]",
+      "D": "[10, 10, 10]"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Mi az [] + [] kifejezés értéke?",
+    "answers": {
+      "A": "[]",
+      "B": "NaN",
+      "C": "0",
+      "D": "\"\" (üres string)"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Mi az [] + {} kifejezés értéke?",
+    "answers": {
+      "A": "0",
+      "B": "NaN",
+      "C": "\"[object Object]\"",
+      "D": "\"{}\""
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Igaz vagy hamis: a 0.1 + 0.2 === 0.3 kifejezés értéke true.",
+    "answers": {
+      "A": "Igaz",
+      "B": "Hamis"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Mit ad vissza a parseInt(0.0000005) hívás?",
+    "answers": {
+      "A": "0",
+      "B": "NaN",
+      "C": "0.0000005",
+      "D": "5"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Mit ad vissza a Math.max() hívás argumentumok nélkül?",
+    "answers": {
+      "A": "0",
+      "B": "NaN",
+      "C": "Infinity",
+      "D": "-Infinity"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Mi az eredménye a [10, 9, 1].sort() hívásnak?",
+    "answers": {
+      "A": "[10, 9, 1]",
+      "B": "[1, 9, 10]",
+      "C": "[1, 10, 9]",
+      "D": "[9, 10, 1]"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Mi az eredménye a \"b\" + \"a\" + +\"a\" + \"a\" kifejezésnek?",
+    "answers": {
+      "A": "\"baaa\"",
+      "B": "\"ba0a\"",
+      "C": "\"baNaNa\"",
+      "D": "NaN"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Mi az eredménye a [1, 2, 3] + [4, 5, 6] kifejezésnek?",
+    "answers": {
+      "A": "\"1,2,34,5,6\"",
+      "B": "\"1,2,3,4,5,6\"",
+      "C": "[1, 2, 3, 4, 5, 6]",
+      "D": "NaN"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Igaz vagy hamis: a 9007199254740992 === 9007199254740993 kifejezés értéke true.",
+    "answers": {
+      "A": "Igaz",
+      "B": "Hamis"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Mi a null >= 0 kifejezés értéke?",
+    "answers": {
+      "A": "undefined",
+      "B": "TypeError",
+      "C": "true",
+      "D": "false"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Mi a [] == ![] kifejezés értéke?",
+    "answers": {
+      "A": "TypeError",
+      "B": "false",
+      "C": "NaN",
+      "D": "true"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Mit ad vissza a typeof typeof 1 kifejezés?",
+    "answers": {
+      "A": "\"object\"",
+      "B": "\"undefined\"",
+      "C": "\"number\"",
+      "D": "\"string\""
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Mi az eredménye a \"5\" + 2 - 2 kifejezésnek?",
+    "answers": {
+      "A": "NaN",
+      "B": "\"52\"",
+      "C": "50",
+      "D": "5"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Mennyi a [,,,].length értéke?",
+    "answers": {
+      "A": "0",
+      "B": "1",
+      "C": "4",
+      "D": "3"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Mi a Number([[[7]]]) értéke?",
+    "answers": {
+      "A": "7",
+      "B": "NaN",
+      "C": "\"7\"",
+      "D": "0"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Melyik hónap számát adja vissza a new Date(2024, 12, 1).getMonth() hívás?",
+    "answers": {
+      "A": "Invalid Date hibát dob",
+      "B": "0",
+      "C": "11",
+      "D": "12"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Igaz vagy hamis: az Array.isArray(Array.prototype) értéke true.",
+    "answers": {
+      "A": "Igaz",
+      "B": "Hamis"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Mit ad vissza a typeof class {} kifejezés?",
+    "answers": {
+      "A": "\"class\"",
+      "B": "\"undefined\"",
+      "C": "\"object\"",
+      "D": "\"function\""
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Melyik állítás igaz a NaN-re és a tömbmetódusokra?",
+    "answers": {
+      "A": "[NaN].includes(NaN) értéke false, [NaN].indexOf(NaN) értéke 0",
+      "B": "Mindkettő hibát dob",
+      "C": "[NaN].includes(NaN) értéke true, de [NaN].indexOf(NaN) értéke -1",
+      "D": "Mindkettő true, illetve 0-t ad"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Mi a 0.1 * 3 értéke JavaScriptben?",
+    "answers": {
+      "A": "0.29999999999999993",
+      "B": "0.3000000000000001",
+      "C": "0.3",
+      "D": "0.30000000000000004"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Mit ad vissza a Math.round(-2.5) hívás?",
+    "answers": {
+      "A": "-2",
+      "B": "-3",
+      "C": "-2.5",
+      "D": "2"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Igaz vagy hamis: a Number.isNaN(\"hello\") értéke true.",
+    "answers": {
+      "A": "Igaz",
+      "B": "Hamis"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Mit ad vissza a new Array(3).map((_, i) => i) hívás?",
+    "answers": {
+      "A": "[empty × 3] (három üres hely)",
+      "B": "[undefined, undefined, undefined]",
+      "C": "[]",
+      "D": "[0, 1, 2]"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Mit ad vissza az Object.prototype.toString.call([]) hívás?",
+    "answers": {
+      "A": "\"[object Array]\"",
+      "B": "\"[]\"",
+      "C": "\"array\"",
+      "D": "\"[object Object]\""
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Mit ad vissza az alábbi kód? (function () { \"use strict\"; return typeof this; }).call(5)",
+    "answers": {
+      "A": "\"object\"",
+      "B": "\"string\"",
+      "C": "\"undefined\"",
+      "D": "\"number\""
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Mi lesz a \"👍\".length értéke?",
+    "answers": {
+      "A": "4",
+      "B": "3",
+      "C": "2",
+      "D": "1"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Mit ad vissza a \"ß\".toUpperCase() hívás?",
+    "answers": {
+      "A": "\"ẞ\"",
+      "B": "\"SS\"",
+      "C": "\"ß\"",
+      "D": "\"S\""
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Mi a 3 > 2 > 1 kifejezés értéke?",
+    "answers": {
+      "A": "true",
+      "B": "SyntaxError",
+      "C": "false",
+      "D": "undefined"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Mennyi lesz a tömb length értéke a következő kód után? const a = [1, 2, 3]; delete a[1];",
+    "answers": {
+      "A": "undefined",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Mit ad vissza az Object.keys(\"abc\") hívás?",
+    "answers": {
+      "A": "TypeError-t dob",
+      "B": "[\"a\", \"b\", \"c\"]",
+      "C": "[\"0\", \"1\", \"2\"]",
+      "D": "[]"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Mit ad vissza a JSON.stringify({ a: undefined, b: () => 1, c: NaN }) hívás?",
+    "answers": {
+      "A": "'{}'",
+      "B": "'{\"a\":null,\"b\":null,\"c\":null}'",
+      "C": "'{\"c\":null}'",
+      "D": "'{\"c\":NaN}'"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Mennyi a new Set([NaN, NaN, 0, -0]).size értéke?",
+    "answers": {
+      "A": "2",
+      "B": "4",
+      "C": "3",
+      "D": "1"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Igaz vagy hamis: a [].reduce((a, b) => a + b) hívás TypeError-t dob.",
+    "answers": {
+      "A": "Igaz",
+      "B": "Hamis"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Mit ad vissza a parseInt(null, 24) hívás?",
+    "answers": {
+      "A": "0",
+      "B": "23",
+      "C": "24",
+      "D": "NaN"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Igaz vagy hamis: egy soha nem deklarált változóra alkalmazott typeof ReferenceError-t dob.",
+    "answers": {
+      "A": "Igaz",
+      "B": "Hamis"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Mennyi a (function (a, b = 2, c) {}).length értéke?",
+    "answers": {
+      "A": "1",
+      "B": "0",
+      "C": "2",
+      "D": "3"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Mi lesz a [0 || 5, 0 ?? 5] kifejezés értéke?",
+    "answers": {
+      "A": "[5, 0]",
+      "B": "[5, 5]",
+      "C": "[0, 5]",
+      "D": "[0, 0]"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Mit ad vissza a null?.a.b.c kifejezés?",
+    "answers": {
+      "A": "TypeError-t dob",
+      "B": "ReferenceError-t dob",
+      "C": "undefined",
+      "D": "null"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Igaz vagy hamis: a structuredClone() képes függvényt tartalmazó objektumot klónozni.",
+    "answers": {
+      "A": "Igaz",
+      "B": "Hamis"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Mi történik ennél a kódnál? console.log(typeof x); let x = 1;",
+    "answers": {
+      "A": "Kiírja: \"undefined\"",
+      "B": "Kiírja: \"number\"",
+      "C": "ReferenceError-t dob (temporal dead zone)",
+      "D": "SyntaxError-t dob"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Mit ír ki a konzol? function* g() { const x = yield 1; console.log(x); } const it = g(); it.next(); it.next(5);",
+    "answers": {
+      "A": "undefined",
+      "B": "1",
+      "C": "Semmit",
+      "D": "5"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Milyen sorrendben írja ki a számokat? console.log(1); setTimeout(() => console.log(2), 0); Promise.resolve().then(() => console.log(3)); console.log(4);",
+    "answers": {
+      "A": "1, 2, 3, 4",
+      "B": "1, 4, 3, 2",
+      "C": "1, 4, 2, 3",
+      "D": "1, 3, 4, 2"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Mit ír ki a konzol? for (var i = 0; i < 3; i++) { setTimeout(() => console.log(i), 0); }",
+    "answers": {
+      "A": "3, 3, 3",
+      "B": "0, 0, 0",
+      "C": "0, 1, 2",
+      "D": "1, 2, 3"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "question": "Melyik trap fut le egy Proxy objektumon az \"a\" in proxy kifejezésnél?",
+    "answers": {
+      "A": "get",
+      "B": "has",
+      "C": "getOwnPropertyDescriptor",
+      "D": "ownKeys"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Mi történik, ha a Promise.all-nak átadott egyik promise elutasításra kerül?",
+    "answers": {
+      "A": "A hibát figyelmen kívül hagyja",
+      "B": "Megvárja az összes promise-t, és csak utána utasít el",
+      "C": "Az eredménytömbben az adott elem undefined lesz",
+      "D": "A Promise.all azonnal elutasításra kerül az első hibával"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "question": "Melyik állítás igaz a WeakMap-re?",
+    "answers": {
+      "A": "forEach-csel bejárható",
+      "B": "Kulcsai tetszőleges stringek lehetnek",
+      "C": "Nem iterálható, kulcsai csak objektumok (vagy nem regisztrált szimbólumok) lehetnek",
+      "D": "Van size tulajdonsága"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "question": "Igaz vagy hamis: az Object.freeze() rekurzívan (mélyen) befagyasztja a beágyazott objektumokat is.",
+    "answers": {
+      "A": "Igaz",
+      "B": "Hamis"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "question": "Igaz vagy hamis: az Array.prototype.sort() az ES2019 óta stabil rendezést garantál.",
+    "answers": {
+      "A": "Igaz",
+      "B": "Hamis"
+    },
+    "correctAnswer": "A"
+  }
+]
+
