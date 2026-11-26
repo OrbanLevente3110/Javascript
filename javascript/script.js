@@ -12,7 +12,8 @@ let selectedAnswer = "";
 
 async function loadQuestions() {
   try {
-    const response = await fetch("../questions/questions.json");
+    const response = await fetch("./questions/questions.json");
+
     questions = await response.json();
     const shuffledQuestions = questions
     for (let i = shuffledQuestions.length - 1; i > 0; i--) {
